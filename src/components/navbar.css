@@ -1,0 +1,28 @@
+.navbar-container {
+    width: 100vw;
+    /* align-self: start; */
+    /* background: linear-gradient(90deg, rgba(252, 176, 69, 1) 100%) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%) !important; */
+    background: linear-gradient(90deg, rgba(59, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%) !important;
+    border: none !important;
+    border-radius: 0 !important;
+    position: fixed;
+    top: 0;
+}
+
+.sd-logo {
+    color: white !important;
+}
+
+.logo-text {
+    background-image: url('../assets/logo1.png');
+    /* background-color: aqua; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.5em;
+    width: 8em;
+}
+
+/* .no-border {
+    border: none !important;
+} */

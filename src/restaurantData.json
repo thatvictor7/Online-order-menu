@@ -1,0 +1,65 @@
+{
+    "restaurant": {
+        "name": "Anthony's Restaurant & Pizzeria",
+        "menu": [{
+                "name": "Appetizers",
+                "items": [
+                    {
+                        "dishName": "Rock City Greens",
+                        "description": "Escarole sautéed with hot cherry peppers and pepperoni, topped with melted mozzarella",
+                        "price": 9.50
+                    },
+                    {
+                        "dishName": "Deep Fried Pickles",
+                        "description": "Dill pickle chips lightly coated with a Cajun breading",
+                        "price": 7.50
+                    },
+                    {
+                        "dishName": "Boneless Wings",
+                        "description": "Tossed in your choice of one of our house made wings sauce",
+                        "price": 8.50
+                    },
+                    {
+                        "dishName": "Chicken Tenders",
+                        "description": "Served with choice of dipping sauce",
+                        "price": 8.00
+                    }, 
+                    {
+                        "dishName": "Fried Ravioli",
+                        "description": "Breaded ravioli served with marinara sauce",
+                        "price": 7.00
+                    },
+                    {
+                        "dishName": "Mozzarella Sticks",
+                        "description": "Served with marinara",
+                        "price": 7.00
+                    }
+                ]
+            },
+            {
+                "name": "Salads",
+                "items": [{
+                        "dishName": "Buffalo Chicken Salad",
+                        "description": "Crisp greens tossed with grilled or crispy chicken coated in your choice of Wing Sauce and bleu cheese dressing",
+                        "price": 11.00
+                    },
+                    {
+                        "dishName": "Grilled Chicken Salad",
+                        "description": "Grilled chicken breast, crisp greens with tomatoe, black olives, provolone cheese, onions, cucumbers",
+                        "price": 11.00
+                    },
+                    {
+                        "dishName": "BLT",
+                        "description": "Bacon, lettuce & tomato with Chipotle Ranch dressing",
+                        "price": 10.50
+                    },
+                    {
+                        "dishName": "Antipasto",
+                        "description": "Lettuce, provolone cheese, salami, pepperoni, tomatoes, onions, banana peppers, pepperoncini, hot cherry peppers and black olives",
+                        "price": "LG 12.50, SM 8.50"
+                    }
+                ]
+            }
+        ]
+    }
+}
