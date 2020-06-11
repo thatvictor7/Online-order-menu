@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Menu, Input } from 'semantic-ui-react'
-import './navbar.css'
+import '../styling/navbar.css'
 
 export default class MenuExampleStackable extends Component {
   state = {}
@@ -21,8 +21,8 @@ export default class MenuExampleStackable extends Component {
                 </div>
         </Menu.Item>
 
-        <Menu.Item position='right'>
-          <Input placeholder='Search...' />
+            <Menu.Item className='search-bar' position='right'>
+          <Input  placeholder='Search...' />
         </Menu.Item>
       </Menu>
     )

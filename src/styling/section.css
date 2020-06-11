@@ -1,17 +1,24 @@
 .section-container {
-    /* width: 65%; */
+    width: 60%;
     height: auto;
-    background-color: rgba(0, 0, 0, 0.705);
-    color: white;
+    /* background-color: rgba(0, 0, 0, 0.705); */
+    color: black;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     /* justify-self: flex-start; */
     padding: 10px;
     flex-direction: column;
+    font-family: 'Quicksand',sans-serif !important;
 }
 
 .section-title {
     font-size: 2em;
     font-weight: 900;
+}
+
+@media only screen and (max-width: 767px) {
+    .section-container {
+        width: 100%;
+    }
 }

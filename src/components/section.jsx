@@ -1,10 +1,11 @@
 import React from 'react'
-import './section.css'
+import '../styling/section.css'
 import Card from './card.jsx'
+import ItemSelector from './itemSelector.jsx'
 
 export default function Section(props) {
 
-    const { sectionName, menuItems } = props
+    const { sectionName, menuItems, addToBag } = props
 
     return (
         <div className='section-container'>
@@ -13,7 +14,7 @@ export default function Section(props) {
             </div>
             {menuItems.map((item) => {
                 return (
-                    <Card dishName={item.dishName} description={item.description} price={item.price} />
+                    <ItemSelector addToBag={addToBag} foodItem={item} itemCard={<Card dishName={item.dishName} description={item.description} price={item.price} />} />
                 )
             })}
         </div>

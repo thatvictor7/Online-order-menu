@@ -1,6 +1,6 @@
 {
     "restaurant": {
-        "name": "Anthony's Restaurant & Pizzeria",
+        "name": "Anthony's Restaurant",
         "menu": [{
                 "name": "Appetizers",
                 "items": [
@@ -56,6 +56,30 @@
                     {
                         "dishName": "Antipasto",
                         "description": "Lettuce, provolone cheese, salami, pepperoni, tomatoes, onions, banana peppers, pepperoncini, hot cherry peppers and black olives",
+                        "price": ["LG 12.50", " SM 8.50"]
+                    }
+                ]
+            },
+            {
+                "name": "Specialty Pizza",
+                "items": [{
+                        "dishName": "Bianca",
+                        "description": "White garlic pizza with roasted red peppers and crushed red pepper",
+                        "price": "LG 14.00 SM 11.50"
+                    },
+                    {
+                        "dishName": "Chicken Bacon Ranch",
+                        "description": "Chicken and bacon with swirls of ranch dressing and mozzarella cheese",
+                        "price": 13.25
+                    },
+                    {
+                        "dishName": "Chicken Wing",
+                        "description": "Chicken tossed in your choice of wing sauce with mozzarella and blue cheese",
+                        "price": "LG 16.00 SM 12.50"
+                    },
+                    {
+                        "dishName": "Meat Lovers",
+                        "description": "Sausage, meatballs, ham and Philly beef steak topped with sauce and mozzarella",
                         "price": "LG 12.50, SM 8.50"
                     }
                 ]

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Menu, Icon } from 'semantic-ui-react'
-import './footer.css'
+import '../styling/footer.css'
 
 export default function Footer() {
     return(

@@ -1,0 +1,11 @@
+.button-card-container {
+    /* width: auto !important; */
+    background-color: rgba(51, 31, 5, 0) !important;
+    text-align: left !important;
+    padding-left: 0 !important;
+    font-family: 'Quicksand',sans-serif !important;
+}
+
+.button-card-container:hover {
+    background-color: rgba(255, 255, 255, 0);
+}
